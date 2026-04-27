@@ -73,9 +73,7 @@ ZSH_THEME="robbyrussell"
 plugins=(
     git
     z
-    zsh-autosuggestions
     zsh-syntax-highlighting
-    history
     sudo
     extract
 )
@@ -111,4 +109,3 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#928374"
-source /usr/share/nvm/init-nvm.sh
