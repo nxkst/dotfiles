@@ -1,0 +1,11 @@
+alacritty/.config/alacritty/themes/.git
+tmux/.tmux/plugins/**/.git
+tmux/.tmux/plugins/**/.gitmodules
+
+alacritty/.config/alacritty/themes/
+tmux/.tmux/plugins/
+
+*.bak
+*.backup
+*~
+.DS_Store
