@@ -22,6 +22,10 @@ super + alt + b
 super + alt + t
 	Telegram
 
+# gimp
+super + alt + g
+    gimp
+
 # screenshot
 Print
 	flameshot gui
