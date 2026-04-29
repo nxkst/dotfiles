@@ -2,9 +2,9 @@ return {
     'nvim-lualine/lualine.nvim',
     dependencies = { 'nvim-tree/nvim-web-devicons' },
     config = function()
-        local custom_gruvbox = require'lualine.themes.gruvbox-material'
+        local custom_moonfly = require'lualine.themes.moonfly'
         require('lualine').setup(
-            { options = { theme = custom_gruvbox },
+            { options = { theme = custom_moonfly },
         }
     )
 end

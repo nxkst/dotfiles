@@ -1,11 +1,11 @@
 {
   "Comment.nvim": { "branch": "master", "commit": "e30b7f2008e52442154b66f7c519bfd2f1e32acb" },
-  "gruvbox-baby": { "branch": "main", "commit": "bd52e62d8134647090108189e69c8b3cd18bdbbf" },
   "harpoon": { "branch": "harpoon2", "commit": "87b1a3506211538f460786c23f98ec63ad9af4e5" },
   "indent-blankline.nvim": { "branch": "master", "commit": "d28a3f70721c79e3c5f6693057ae929f3d9c0a03" },
   "lazy.nvim": { "branch": "main", "commit": "306a05526ada86a7b30af95c5cc81ffba93fef97" },
   "lualine.nvim": { "branch": "master", "commit": "a905eeebc4e63fdc48b5135d3bf8aea5618fb21c" },
   "mason.nvim": { "branch": "main", "commit": "12ddd182d9efbdc848b540f16484a583d52da0fb" },
+  "moonfly": { "branch": "master", "commit": "4ed07bc0c6083cdd547c63f5c245e02c068b0c45" },
   "nvim-lspconfig": { "branch": "master", "commit": "e146efacbafed3789ac568abcc5a981c5decaa58" },
   "nvim-treesitter": { "branch": "main", "commit": "4916d6592ede8c07973490d9322f187e07dfefac" },
   "nvim-web-devicons": { "branch": "master", "commit": "c72328a5494b4502947a022fe69c0c47e53b6aa6" },
