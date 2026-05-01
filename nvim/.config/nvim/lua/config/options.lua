@@ -33,3 +33,5 @@ opt.colorcolumn = "80"
 
 opt.showmode = false
 
+opt.ignorecase = true
+opt.smartcase = true
