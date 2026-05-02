@@ -10,9 +10,9 @@ super + q
 super + @space
 	rofi -show drun 
 
-# librewolf
+# brave
 super + shift + b
-	librewolf
+	brave
 
 # chromium
 super + alt + b
