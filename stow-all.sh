@@ -3,7 +3,7 @@ cd "$(dirname "$0")" || exit 1
 
 echo "=== Stowing nxkst/dotfiles ==="
 
-PACKAGES=(alacritty bspwm nvim picom polybar rofi sxhkd zsh tmux xinit)
+PACKAGES=(alacritty bspwm picom polybar rofi sxhkd zsh tmux xinit)
 
 for pkg in "${PACKAGES[@]}"; do
     echo "→ Stowing $pkg..."
