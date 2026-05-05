@@ -3,7 +3,7 @@ decorations = "none"
 opacity = 1 
 
 [font]
-normal = { family = "Iosevka Nerd Font", style = "Regular" }
+normal = { family = "Hack Nerd Font", style = "Regular" }
 size = 14.0
 
 [scrolling]
