@@ -5,8 +5,8 @@ sxhkd &
 polybar left &
 polybar center &
 polybar right &
-feh --bg-fill ~/.config/bspwm/wallpapers/wallpaper5.png &
-picom &
+feh --bg-fill ~/.config/bspwm/wallpapers/arch-btw-moon.png &
+picom --config ~/.config/picom/picom-animations.conf &
 sh -c "setxkbmap -option ''; setxkbmap -layout us,ru -option grp:caps_toggle" &
 redshift -P -O 3800
 

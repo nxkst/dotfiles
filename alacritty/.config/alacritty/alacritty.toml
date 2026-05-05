@@ -10,6 +10,4 @@ size = 14.0
 history = 100000
 
 [general]
-import = [
-    "~/.config/alacritty/themes/themes/gruvbox_material_hard_dark.toml"
-]
+import = ["./themes/rose-pine.toml"]
