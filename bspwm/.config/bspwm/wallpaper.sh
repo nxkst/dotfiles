@@ -1,2 +1,2 @@
 #!/bin/sh
-feh --randomize --bg-fill ~/.config/bspwm/wallpapers/*
+feh --no-fehbg --randomize --bg-fill ~/.config/bspwm/wallpapers/*
