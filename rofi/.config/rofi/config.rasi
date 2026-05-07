@@ -1,5 +1,6 @@
 @import "default"
 
+
 * {
 	bg: #232136;
 	cur: #2a273f;
@@ -12,7 +13,13 @@
 	red: #eb6f92;
 	yel: #f6c177;
 
-	font: "Hack Nerd Font 12";
+	font: "hack nerd font 12";
+
+    lazy-grab: true;
+    parse-hosts: false;
+    parse-know-hosts: false;
+    cache-dir: "/tmp/rofi-cache";
+    max-history-size: 30;
 
 	foreground: @fgd;
 	background: @bg;
@@ -133,4 +140,3 @@
 	margin:     0px 0.3em 0em 0em;
 	text-color: @grn;
 }
-
