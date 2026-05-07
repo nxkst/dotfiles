@@ -1,16 +1,16 @@
 #! /bin/sh
 
 # AUTORUN
-sxhkd &
+pgrep -x sxhkd > /dev/null || sxhkd &
 polybar left &
 polybar center &
 polybar right &
+pgrep -x dunst > /dev/null || dunst &
 sh "$HOME/.config/bspwm/wallpaper.sh"
 picom &
 sh -c "setxkbmap -option ''; setxkbmap -layout us,ru -option grp:caps_toggle" &
 redshift -P -O 3800
 
-pgrep -x sxhkd > /dev/null || sxhkd &
 
 bspc monitor -d 1 2 3 4 5 6 7 8 9 10
 

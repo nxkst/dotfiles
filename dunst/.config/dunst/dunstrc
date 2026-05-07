@@ -1,0 +1,40 @@
+[global]
+    font = Hack Nerd Font 10
+    markup = yes
+    format = "<b>%s</b>\n%b"
+    sort = yes
+    alignment = left
+    width = 350
+    height = 150
+    origin = top-right
+    offset = 20x20
+    transparency = 0
+    idle_threshold = 120
+    follow = mouse
+    separator_height = 2
+
+    # Rose Pine Colors
+    frame_color = "#524f67"
+    separator_color = frame_color
+
+    # Backgrounds
+    background = "#191724"
+    foreground = "#e0def4"
+
+[urgency_low]
+    background = "#191724"
+    foreground = "#908caa"
+    frame_color = "#524f67"
+    timeout = 4
+
+[urgency_normal]
+    background = "#1f1d2e"
+    foreground = "#e0def4"
+    frame_color = "#c4a7e7"      # Iris (nice accent)
+    timeout = 6
+
+[urgency_critical]
+    background = "#191724"
+    foreground = "#eb6f92"       # Love
+    frame_color = "#eb6f92"
+    timeout = 0
