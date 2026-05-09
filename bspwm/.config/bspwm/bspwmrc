@@ -9,6 +9,7 @@ pgrep -x dunst > /dev/null || dunst &
 sh "$HOME/.config/bspwm/wallpaper.sh"
 picom &
 sh -c "setxkbmap -option ''; setxkbmap -layout us,ru -option grp:caps_toggle" &
+xsetroot -cursor_name left_ptr &
 redshift -P -O 3800
 
 
