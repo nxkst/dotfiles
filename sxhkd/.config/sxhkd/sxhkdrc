@@ -23,7 +23,7 @@ super + alt + t
 	Telegram
 
 # screenshot
-Print
+{Print, super + alt + s}
 	flameshot gui
 
 # make sxhkd reload its configuration files:
@@ -33,6 +33,7 @@ super + Escape
 # random wallpaper
 super + alt + w
     sh ~/.config/bspwm/wallpaper.sh
+
 #
 # bspwm hotkeys
 #
