@@ -1,6 +1,6 @@
 [window]
 decorations = "none"
-opacity = 1 
+opacity = 1
 
 [font]
 normal = { family = "Hack Nerd Font", style = "Regular" }
@@ -10,4 +10,4 @@ size = 14.0
 history = 100000
 
 [general]
-import = ["./themes/rose-pine.toml"]
+import = ["./themes/themes/retro-amber.toml"]
