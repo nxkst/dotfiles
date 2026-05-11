@@ -2,11 +2,11 @@
 
 # AUTORUN
 pgrep -x sxhkd > /dev/null || sxhkd &
+sh "$HOME/.config/bspwm/wallpaper.sh"
 polybar left &
 polybar center &
 polybar right &
 pgrep -x dunst > /dev/null || dunst &
-sh "$HOME/.config/bspwm/wallpaper.sh"
 picom &
 sh -c "setxkbmap -option ''; setxkbmap -layout us,ru -option grp:caps_toggle" &
 xsetroot -cursor_name left_ptr &

@@ -108,4 +108,6 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias cbuild="gcc -std=c17 -Wall -Wextra -Wpedantic -g -O0"
+
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#928374"
