@@ -4,11 +4,11 @@
 
 # terminal emulator
 super + q
-	alacritty
+	alacritty msg create-window || alacritty
 
 # program launcher
 super + @space
-	rofi -show drun 
+	rofi -show drun
 
 # brave
 super + shift + b
@@ -23,12 +23,16 @@ super + alt + t
 	Telegram
 
 # screenshot
-Print
+{Print, super + alt + s}
 	flameshot gui
 
 # make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd
+
+# random wallpaper
+super + alt + w
+    sh ~/.config/bspwm/wallpaper.sh
 
 #
 # bspwm hotkeys
