@@ -1,22 +1,21 @@
 [global]
-    # General look
-    follow = keyboard
-    width = 380
-    height = 200
+    font = Iosevka Nerd Font, Noto Color Emoji 10
+    markup = yes
+    format = "<b>%s</b>\n%b"
+    sort = yes
+    alignment = left
+    width = 350
+    height = 150
     origin = top-right
     offset = 20x20
-    notification_limit = 0
-    corner_radius = 8
-    gap_size = 8
+    transparency = 0
+    idle_threshold = 120
+    follow = mouse
+    separator_height = 2
 
-    # Font
-    font = Iosevka Nerd Font 11
-
-    # Colors - Gruvbox Dark
+    # Gruvbox Dark
     frame_color = "#665c54"
-    separator_color = auto
-
-    # Background & Foreground
+    separator_color = "#665c54"
     background = "#282828"
     foreground = "#ebdbb2"
 
@@ -27,13 +26,13 @@
     timeout = 4
 
 [urgency_normal]
-    background = "#3c3836"
+    background = "#32302f"
     foreground = "#ebdbb2"
-    frame_color = "#fe8019"
+    frame_color = "#d79921"    # Gruvbox Yellow (nice warm accent)
     timeout = 6
 
 [urgency_critical]
-    background = "#cc241d"
-    foreground = "#ebdbb2"
+    background = "#282828"
+    foreground = "#fb4934"     # Gruvbox Bright Red
     frame_color = "#fb4934"
     timeout = 0
