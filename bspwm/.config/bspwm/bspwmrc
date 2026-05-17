@@ -3,9 +3,7 @@
 # AUTORUN
 pgrep -x sxhkd > /dev/null || sxhkd &
 sh "$HOME/.config/bspwm/wallpaper.sh"
-polybar left &
-polybar center &
-polybar right &
+polybar &
 pgrep -x dunst > /dev/null || dunst &
 picom &
 sh -c "setxkbmap -option ''; setxkbmap -layout us,ru -option grp:caps_toggle" &

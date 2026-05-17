@@ -12,7 +12,7 @@ super + @space
 
 # brave
 super + shift + b
-	brave
+	brave --password-store=basic
 
 # chromium
 super + alt + b

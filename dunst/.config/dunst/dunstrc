@@ -1,5 +1,5 @@
 [global]
-    font = Iosevka Nerd Font, Noto Color Emoji 10
+    font = Hack Nerd Font, Noto Color Emoji 10
     markup = yes
     format = "<b>%s</b>\n%b"
     sort = yes
@@ -28,11 +28,11 @@
 [urgency_normal]
     background = "#32302f"
     foreground = "#ebdbb2"
-    frame_color = "#d79921"    # Gruvbox Yellow (nice warm accent)
+    frame_color = "#d79921"
     timeout = 6
 
 [urgency_critical]
     background = "#282828"
-    foreground = "#fb4934"     # Gruvbox Bright Red
+    foreground = "#fb4934"
     frame_color = "#fb4934"
     timeout = 0
