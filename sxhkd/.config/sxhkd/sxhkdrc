@@ -7,12 +7,12 @@ super + q
 	alacritty msg create-window || alacritty
 
 # program launcher
-super + @space
+super + p
 	rofi -show drun
 
 # brave
 super + shift + b
-	brave
+	brave --password-store=basic
 
 # chromium
 super + alt + b
