@@ -3,8 +3,8 @@ decorations = "none"
 opacity = 1
 
 [font]
-normal = { family = "JetBrains Mono Nerd Font", style = "Regular" }
-size = 14.0
+normal = { family = "Hack Nerd Font", style = "Regular" }
+size = 13.0
 
 [scrolling]
 history = 100000
