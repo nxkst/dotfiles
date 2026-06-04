@@ -13,26 +13,26 @@
     follow = mouse
     separator_height = 2
 
-    # Gruvbox Dark
-    frame_color = "#665c54"
-    separator_color = "#665c54"
-    background = "#282828"
-    foreground = "#ebdbb2"
+    # Nord
+    frame_color = "#4c566a"
+    separator_color = "#4c566a"
+    background = "#2e3440"
+    foreground = "#d8dee9"
 
 [urgency_low]
-    background = "#282828"
-    foreground = "#a89984"
-    frame_color = "#665c54"
+    background = "#2e3440"
+    foreground = "#a3be8c"
+    frame_color = "#4c566a"
     timeout = 4
 
 [urgency_normal]
-    background = "#32302f"
-    foreground = "#ebdbb2"
-    frame_color = "#d79921"
+    background = "#3b4252"
+    foreground = "#d8dee9"
+    frame_color = "#88c0d0"
     timeout = 6
 
 [urgency_critical]
-    background = "#282828"
-    foreground = "#fb4934"
-    frame_color = "#fb4934"
+    background = "#2e3440"
+    foreground = "#bf616a"
+    frame_color = "#bf616a"
     timeout = 0

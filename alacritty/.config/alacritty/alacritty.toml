@@ -3,13 +3,13 @@ decorations = "none"
 opacity = 1
 
 [font]
-normal = { family = "Hack Nerd Font", style = "Regular" }
-size = 13.0
+normal = { family = "Iosevka Nerd Font", style = "Regular" }
+size = 15.0
 
 [scrolling]
 history = 100000
 
 [general]
 import = [
-    "~/.config/alacritty/themes/themes/gruvbox_material.toml"
+    "~/.config/alacritty/themes/nord.toml"
 ]
