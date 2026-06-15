@@ -10,9 +10,9 @@ super + q
 super + p
 	rofi -show drun
 
-# brave
+# librewolf
 super + shift + b
-	brave --password-store=basic
+	librewolf
 
 # chromium
 super + alt + b
