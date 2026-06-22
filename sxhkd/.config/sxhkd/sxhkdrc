@@ -10,9 +10,9 @@ super + q
 super + p
 	rofi -show drun
 
-# librewolf
+# zen
 super + shift + b
-	librewolf
+	zen-browser
 
 # chromium
 super + alt + b

@@ -111,3 +111,4 @@ source $ZSH/oh-my-zsh.sh
 alias vim="nvim"
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#928374"
 export PATH="$HOME/.local/bin/statusbar:$PATH"
+export PATH="$PATH:$HOME/go/bin"
